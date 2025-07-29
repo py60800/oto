@@ -17,7 +17,7 @@ package oto
 import (
 	"fmt"
 
-	"github.com/ebitengine/oto/v3/internal/mux"
+	"github.com/py60800/oto/v3/internal/mux"
 )
 
 // Player is a PCM (pulse-code modulation) audio player.
