@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebitengine/oto/v3"
+	"github.com/py60800/oto/v3"
 )
 
 var (
