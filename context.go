@@ -87,7 +87,8 @@ func NewContext(options *NewContextOptions) (*Context, chan struct{}, error) {
 	if contextCreated {
 		return nil, nil, fmt.Errorf("oto: context is already created")
 	}
-	contextCreated = true
+	// py60800 => Several context may be required!
+	// contextCreated = true
 
 	var bufferSizeInBytes int
 	if options.BufferSize != 0 {
