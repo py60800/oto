@@ -5,7 +5,7 @@
 
 
 A low-level library to play sound.
-[!CAUTION]
+# Caution!
 @py60800: this module has been modified to allow multiple sampleRates but it has most likely introduced many drawbacks that ,fortunately, do not intefere with my project. 
 ** Do not use it, unless you know what you are doing **
 
