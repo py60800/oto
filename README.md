@@ -5,7 +5,9 @@
 
 
 A low-level library to play sound.
-py60800: modified version to allow multiple sampleRates (for personnal use)
+[!CAUTION]
+@py60800: this module has been modified to allow multiple sampleRates but it has most likely introduced many drawbacks that ,fortunately, do not intefere with my project. 
+** Do not use it, unless you know what you are doing **
 
 - [Oto (v3)](#oto-v3)
   - [Platforms](#platforms)
